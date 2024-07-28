@@ -1,0 +1,27 @@
+dataset: citeseer
+# model
+hidden_size: 64
+layer_num: 2
+activation: prelu
+dropout: 0.5
+model: ADDNODE_GNN
+encoder: GCN_Encoder
+# training
+lr: 0.01
+weight_decay: 0.005
+epochs: 300
+earlystop: True
+patience: 50
+
+
+# addnode
+pre_trace: zero    # zero / mpnn
+mvc: tmm          # MLP / TMM
+trace_hidden: 128  # only useful when MLP as mvc
+w: 2               # norm frequency
+fpe_dim: 64
+fpe_hidden: 32
+
+#gcnii
+alpha: 0.1
+theta: 1

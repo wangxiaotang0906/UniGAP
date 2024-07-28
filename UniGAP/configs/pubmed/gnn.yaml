@@ -1,0 +1,19 @@
+dataset: pubmed
+# model
+hidden_size: 64
+layer_num: 2
+activation: prelu
+dropout: 0.3
+model: GNN
+encoder: GCN_Encoder
+# training
+lr: 0.01
+weight_decay: 0.005
+epochs: 200
+earlystop: True
+patience: 20
+norm: id
+
+#gcnii
+alpha: 0.1
+theta: 1
