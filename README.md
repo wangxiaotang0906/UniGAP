@@ -33,7 +33,7 @@ Particularly for GCNII：
 
 ## Runing Commands
 you can run UniGAP by
-python traditional_gnn.py --config ./configs/<dataset>/unigap.yaml
+python traditional_gnn.py --config ./configs/\<dataset\>/unigap.yaml
 
 you can run baselines by
-python traditional_gnn.py --config ./configs/<dataset>/gnn.yaml
+python traditional_gnn.py --config ./configs/\<dataset\>/gnn.yaml
