@@ -16,8 +16,6 @@ You can select the dataset and hyperparameters in ./configs/\<dataset\>/addnode.
 - hidden_dim $\in \{16,32,64,128,256\}$
 - dropout $\in \{0,0.1,0.2,0.3,0.5,0.8\}$
 - weight_decay $\in \{1e-2,5e-3,1e-3,5e-4,1e-4\}$
-- activation $\in \{\text{elu},\text{relu},\text{prelu}\}$
-- layer_num $\in \{1,2,3,4,5,6,7,8\}$
 
 UniGAP settings：
 - Trace_Precompute: zero/mpnn/pre_train
